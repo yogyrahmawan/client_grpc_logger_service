@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package pb;
+
+import "logger.proto";
+message LoggerResponsesMessage {
+	repeated LoggerMessage loggerMessages = 1;
+}
